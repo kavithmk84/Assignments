@@ -11,14 +11,7 @@ import org.testng.annotations.Test;
 public class MugsPage extends Driver {
     @FindBy(id="keywords")
     private WebElement searchTextBox;
-   /* @FindBy(xpath = "//a[text()='Rails']")
-    private WebElement railsButton;
-    @FindBy(xpath= "//h4[text()=' Price Range ']/following-sibling::ul/li[2]")
-    private WebElement priceRange10_15;
-    @FindBy(xpath="//*[text()='Ruby on Rails Mug']")
-    private WebElement rubyOnRailsMugItem;
-    @FindBy(id="add-to-cart-button")
-    private WebElement addToCartButton;*/
+ 
     @FindBy(css="input[class='btn btn-success']")
     private WebElement searchButton;
 
